@@ -95,11 +95,11 @@ body {
 }
 
 
-.hero {
+.home {
   padding: 70px 0 60px;
 }
 
-.hero-grid {
+.home-grid {
   display: grid;
   grid-template-columns: 360px 1fr;
   gap: 40px;
@@ -132,7 +132,7 @@ body {
   z-index: 1;
 }
 
-/* hero text */
+
 .lead {
   margin: 0;
   font-weight: 600;
@@ -388,7 +388,7 @@ width: 100%;
 /* responsive */
 @media (max-width:1000px) {
 
-  .hero-grid,
+  .home-grid,
   .about-grid {
     grid-template-columns: 1fr
   }
@@ -423,7 +423,7 @@ width: 100%;
     font-size: 2.4rem
   }
 
-  .hero {
+  .home {
     padding: 40px 0
   }
 }
